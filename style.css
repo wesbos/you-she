@@ -1,0 +1,19 @@
+
+html {
+  --blue: #bacce4;
+  --pink: #fad8e4;
+  --white: #fefefe;
+  --black: #000;
+  background: var(--white);
+}
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+}
+
+.logo {
+  max-width: 400px;
+}
