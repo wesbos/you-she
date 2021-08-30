@@ -23,7 +23,8 @@ jobs:
 
     - name: Install Dependencies
       run: npm install
-
+    - name: reinstate CNAME
+      run: echo 'youshe.love' >build\/CNAME
     - name: Build Site
       run: |
         npm run build
