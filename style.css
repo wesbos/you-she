@@ -66,3 +66,7 @@ a {
 .logo {
   max-width: 400px;
 }
+
+.roman {
+  list-style: lower-roman;
+}
