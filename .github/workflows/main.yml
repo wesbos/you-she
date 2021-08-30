@@ -1,4 +1,4 @@
-name: Populate readme.md from master and lint src/data.js
+name: Build the site
 
 on:
   push:
