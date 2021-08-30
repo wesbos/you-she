@@ -23,13 +23,15 @@ jobs:
 
     - name: Install Dependencies
       run: npm install
+    - name: Build Site
+      run: |
+        npm run build
     - name: reinstate CNAME
       run: |
         touch docs\/CNAME
         echo 'youshe.love' >docs\/CNAME
-    - name: Build Site
+    - name: Commit Changes
       run: |
-        npm run build
         git add -A
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
