@@ -1,17 +1,66 @@
-
 html {
   --blue: #bacce4;
   --pink: #fad8e4;
   --white: #fefefe;
   --black: #000;
+  --primary-font: 'questa';
   background: var(--white);
+  font-family: var(--primary-font), BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+}
+
+p, li {
+  line-height: 2;
+  font-size: 1.7rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+  background: var(--pink);
+  padding: 1rem;
+  margin: 0;
+}
+
+h2:nth-of-type(even) {
+  background-color: var(--blue);
+}
+
+a {
+  color: black;
+  text-decoration-color: var(--blue);
+}
+
+@font-face {
+    font-family: 'questa';
+    src: url('./fonts/questa-grande.woff2') format('woff2'),
+         url('./fonts/questa-grande.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .wrapper {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+@media (max-width: 850px) {
+  .wrapper {
+    margin: 2rem;
+  }
 }
 
 .logo {
