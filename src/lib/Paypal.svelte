@@ -1,4 +1,5 @@
-<div class="checkout">
+<div class="checkout">PAypal coming soon</div>
+<!-- <div class="checkout">
 	<div id="smart-button-container">
 		<div style="text-align: center;">
 			<div style="margin-bottom: 1.25rem;">
@@ -119,4 +120,4 @@
 		}
 		initPayPalButton();
 	</script>
-</div>
+</div> -->
