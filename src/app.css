@@ -47,8 +47,8 @@ a {
 
 @font-face {
   font-family: 'questa';
-  src: url('./fonts/questa-grande.woff2') format('woff2'),
-    url('./fonts/questa-grande.woff') format('woff');
+  src: url('/fonts/questa-grande.woff2') format('woff2'),
+    url('/fonts/questa-grande.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

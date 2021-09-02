@@ -5,3 +5,5 @@ node_modules
 /package
 /workers-site
 wrangler.toml
+.vercel_build_output/
+.vercel
